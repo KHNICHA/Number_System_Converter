@@ -3,18 +3,18 @@ import java.util.Scanner;
 class NumberSystemConverter {
     public static void addition(){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the first the number:");
+        System.out.println("Please enter the first number:");
         double ADD_a = scanner.nextDouble();
-        System.out.println("Enter the second the number:");
+        System.out.println("Please enter the second number:");
         double ADD_b = scanner.nextDouble();
         double result=ADD_a+ADD_b;
         System.out.println("the result is : "+result);
     }
     public static void subtraction(){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the first the number:");
+        System.out.println("Please enter the first the number:");
         double SUB_a = scanner.nextDouble();
-        System.out.println("Enter the second the number:");
+        System.out.println(" Please enter the second number:");
         double SUB_b = scanner.nextDouble();
         double result=SUB_a-SUB_b;
         System.out.println("the result is : "+result);
@@ -23,7 +23,7 @@ class NumberSystemConverter {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the first the number:");
         double MULTI_a = scanner.nextDouble();
-        System.out.println("Enter the second the number:");
+        System.out.println("Please enter the second number:");
         double MULTI_b = scanner.nextDouble();
         double result=MULTI_a*MULTI_b;
         System.out.println("the result is : "+result);
@@ -32,7 +32,7 @@ class NumberSystemConverter {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the first the number:");
         double DIV_a = scanner.nextDouble();
-        System.out.println("Enter the second the number:");
+        System.out.println("Please enter the second number:");
         double DIV_b = scanner.nextDouble();
         double result=DIV_a/DIV_b;
         System.out.println("the result is : "+result);
